@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Stack} from "@mui/material";
 import {categories} from "../utils/constants";
 
@@ -23,7 +23,7 @@ const SideBar = ({selected, setSelected}) => {
                         }}
                     >
                         {category.icon}</span>
-                    <span style={{color: category.name === selected ? "white" : "red"}}>{category.name}</span>
+                    <span>{category.name}</span>
                 </button>
             ))}
         </Stack>
