@@ -22,8 +22,7 @@ const SearchFeed = () => {
             <Typography variant={"h4"} fontWeight={"bold"} mb={4} sx={{color: "white"}}>
                 Search Results for: <span style={{color: '#F31503'}}>{searchTerm}</span>
             </Typography>
-            {videos ? <Videos videos={videos}/> :
-                <Typography variant={"subtitle1"} color={"#F31503"}>Videos are Loading...</Typography>}
+            <Videos videos={videos}/>
         </Box>
     );
 };

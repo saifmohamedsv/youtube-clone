@@ -11,14 +11,17 @@ const SearchBar = () => {
     return (
         <Paper
             component={'form'}
+
             onSubmit={(e) => {
                 e.preventDefault()
                 if (term) {
                     router(`/search/${term}`)
                 }
             }}
+
             sx={{borderRadius: 20, border: "1px solid #e3e3e3", pl: 2, boxShadow: 'none', mr: {sm: 5}}}
         >
+
             <input
                 placeholder={"Search..."}
                 type="text"
@@ -28,9 +31,11 @@ const SearchBar = () => {
                     setTerm(e.target.value)
                 }}
             />
+
             <IconButton type={"submit"} sx={{p: "10px", color: "red"}}>
                 <Search/>
             </IconButton>
+
         </Paper>
     );
 };
