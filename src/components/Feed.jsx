@@ -4,7 +4,7 @@ import {SideBar, Videos} from "./";
 import {fetchFromAPI} from "../utils/fetchFromApi";
 
 const Feed = () => {
-    const [selected, setSelected] = useState("Elon musk tesla")
+    const [selected, setSelected] = useState("Metaverse")
     const [videos, setVideos] = useState(null)
 
     useEffect(() => {
