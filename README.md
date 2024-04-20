@@ -1,11 +1,11 @@
 
 # Youtube Clone
 
-This is a simple game clone (mincraft) you can move using WASD + space bar keys and click anywhere to add blocks :)
-Enjoy!
+This YouTube clone lets you use the YouTube API to search for your favorite videos by search term or by category, Enjoy without a search history ;)
+
 ## Features
 
-- Feed page contains variety of videos
+- Feed page contains a variety of videos
 - Search by term or (category from side bar)
 - See channel details
 - Play a video 
