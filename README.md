@@ -1,5 +1,5 @@
 
-# Minecraft - JS Game
+# Youtube Clone
 
 This is a simple game clone (mincraft) you can move using WASD + space bar keys and click anywhere to add blocks :)
 Enjoy!
